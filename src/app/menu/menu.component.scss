@@ -1,0 +1,51 @@
+header{
+    h1{
+    cursor: pointer;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+    padding-left: 120px;
+    padding-right: 120px;
+   
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 8px;
+        font-weight:600;
+        &:hover{
+            color: rgba(255,255,255,0.8);
+        }
+    }
+}
+
+.darkLinks{
+    
+    a{
+        color: black;
+        &:hover{
+            color:rgba(0,0,0,0.4);
+        }
+
+    }
+}
+
+.darkLogo{
+    color: black;
+    
+    &:hover{
+        color:rgba(0,0,0,0.4);
+    }
+}
+
+.headerDark{
+    background-color: white;
+    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+
+}
